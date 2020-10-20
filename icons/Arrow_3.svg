@@ -1,0 +1,51 @@
+<svg id="Arrow_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127.59" height="33" viewBox="0 0 127.59 33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #9aca40;
+        stroke-linecap: round;
+        stroke-width: 2px;
+        stroke-dasharray: 0.001 4;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #9aca40;
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        filter: url(#filter-3);
+      }
+    </style>
+    <filter id="filter" x="1098" y="977" width="111.62" height="26.53" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#76a1cc"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="1089.41" y="995.219" width="10.65" height="10.501" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#76a1cc"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="1206" y="998" width="11" height="11" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#76a1cc"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(-1089.41 -976)" style="fill: none; filter: url(#filter)">
+    <path id="Shape_2_copy" data-name="Shape 2 copy" class="cls-1" d="M1098.38,999.26c64.82-51.8,111.37,3.06,111.37,3.06" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-1089.41 -976)" xlink:href="#Shape_2_copy" style="stroke: #9aca40; filter: none; fill: none"/>
+  <path id="Shape_3_copy_2" data-name="Shape 3 copy 2" class="cls-2" d="M1089.4,1005.53l10.68,0.2-7.96-10.519-2.72,10.319" transform="translate(-1089.41 -976)"/>
+  <path id="Shape_3_copy_2-2" data-name="Shape 3 copy 2" class="cls-3" d="M1217,1008.8l-11.01.21,8.21-11.018,2.8,10.808" transform="translate(-1089.41 -976)"/>
+</svg>

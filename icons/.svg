@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71" height="69" viewBox="0 0 71 69">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #709dca;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        font-size: 72px;
+        fill: #c4cacb;
+        text-anchor: middle;
+        font-family: FontAwesome;
+      }
+    </style>
+  </defs>
+  <text id="_" data-name="" class="cls-1" x="35.999" y="60.001"><tspan x="32.999"></tspan></text>
+</svg>
