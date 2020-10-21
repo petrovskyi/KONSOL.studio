@@ -33,7 +33,7 @@
 }
 
 :root {
-  --main-link-color: #868686;
+  /* --main-link-color: #868686; */
 }
 
 ul,
@@ -48,10 +48,14 @@ form {
 ul {
   list-style: none;
 }
+body,
+html {
+  width: 100vw;
+}
 
 a {
   text-decoration: none;
-  color: var(--main-text-color);
+  color: #868686;
   text-align: center;
   font-size: 13.5;
   font-family: "Lato - regular";

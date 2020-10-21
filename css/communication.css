@@ -11,7 +11,6 @@
     font-family: "Gotham";
     text-align: center;
     font-size: 35px;
-    /* line-height: 24px; */
     margin-bottom: 3.5px;
   }
 
@@ -38,11 +37,9 @@
     border: none;
     margin: 0 auto;
     display: block;
-
     padding: 15.5px 0;
     padding-left: 41px;
     width: 281px;
-    /* position: relative; */
   }
 
   .form-input::placeholder {
@@ -80,11 +77,9 @@
   }
 }
 
-@media (min-width: 600px) {
-}
-
-@media (min-width: 730px) {
+@media (min-width: 1050px) {
   .communication-form {
+    padding-bottom: 347px;
     flex-direction: row;
     justify-content: center;
   }

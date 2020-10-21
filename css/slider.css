@@ -7,7 +7,6 @@
   border: 2px solid #dedfe0;
   width: 15px;
   height: 15px;
-  /* background-color: white; */
   border-radius: 50%;
 }
 .pagination-item:nth-child(1) {
@@ -19,6 +18,7 @@
 }
 
 .slider-container {
+  width: 80%;
   position: absolute;
   z-index: 1;
   left: 50%;
@@ -34,4 +34,8 @@
   max-width: 647px;
   margin: 0 auto;
   display: block;
+}
+
+.slide-img {
+  max-width: 647px;
 }
