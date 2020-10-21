@@ -1,0 +1,95 @@
+@media (min-width: 320px) {
+  .communication {
+    position: relative;
+    color: white;
+    background-color: #709dca;
+    padding-top: 104.5px;
+  }
+
+  .communication-title {
+    text-transform: uppercase;
+    font-family: "Gotham";
+    text-align: center;
+    font-size: 35px;
+    /* line-height: 24px; */
+    margin-bottom: 3.5px;
+  }
+
+  .communication-subtitle {
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 29px;
+  }
+
+  .communication-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 347px;
+  }
+
+  .input-container {
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .form-input {
+    border: none;
+    margin: 0 auto;
+    display: block;
+
+    padding: 15.5px 0;
+    padding-left: 41px;
+    width: 281px;
+    /* position: relative; */
+  }
+
+  .form-input::placeholder {
+    font-family: "Open Sans - regular";
+    font-size: 13px;
+    color: #a9a9a9;
+  }
+
+  .form-button-submit {
+    font-size: 14px;
+    padding: 15px 15.6px;
+  }
+
+  .icon-container {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .icon-name {
+    background-image: url("../icons/person.svg");
+  }
+  .icon-email {
+    background-image: url("../icons/mail.svg");
+  }
+  .icon-phone {
+    background-image: url("../icons/phone.svg");
+  }
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 730px) {
+  .communication-form {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .input-container {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}

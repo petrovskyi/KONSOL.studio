@@ -1,0 +1,88 @@
+.advantages {
+  padding-top: 161px;
+}
+
+.advantage-title {
+  font-family: "Gotham";
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #394b50;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.advantage-subtitle {
+  font-family: "Lato - light";
+  color: #394b50;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 83px;
+}
+
+.advantage-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 136px;
+}
+
+.advantage-list-item {
+  width: 228px;
+  position: relative;
+}
+
+.wraper-icon {
+  margin: 0 auto;
+  margin-bottom: 62px;
+}
+
+.advantage-list-item > h2 {
+  font-family: "Lato - bold";
+  text-align: center;
+  font-size: 20px;
+  color: #394b50;
+  text-transform: uppercase;
+  margin-bottom: 27.5px;
+}
+
+.advantage-list-item > p {
+  font-family: "Open Sans - regular";
+  text-align: center;
+  font-size: 13px;
+  color: #7b7b7b;
+  line-height: 22px;
+}
+
+.icon-container-next-step {
+  /* content: ""; */
+  position: absolute;
+  width: 127px;
+  height: 32px;
+  /* background-color: red; */
+
+  top: -13px;
+  right: -90px;
+  z-index: 1;
+}
+.rotate {
+  transform: rotate(180deg);
+  top: 20px;
+}
+
+.icon-next {
+  background-image: url("../icons/Group\ 1.png");
+}
+
+.headphones-icon {
+  width: 71px;
+}
+.lock-icon {
+  width: 50px;
+}
+.cloud-icon {
+  width: 81px;
+}
+.thumbUp-icon {
+  width: 68px;
+}

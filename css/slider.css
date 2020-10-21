@@ -1,0 +1,37 @@
+.pagination {
+  display: flex;
+
+  justify-content: center;
+}
+.pagination-item {
+  border: 2px solid #dedfe0;
+  width: 15px;
+  height: 15px;
+  /* background-color: white; */
+  border-radius: 50%;
+}
+.pagination-item:nth-child(1) {
+  border: 2px solid #34b1e1;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 6px;
+}
+
+.slider-container {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -106px;
+}
+
+.slider {
+  margin-bottom: 22px;
+}
+
+.slide {
+  max-width: 647px;
+  margin: 0 auto;
+  display: block;
+}

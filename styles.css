@@ -1,0 +1,84 @@
+@import url("./css/header.css");
+@import url("./css/communication.css");
+@import url("./css/advantages.css");
+@import url("./css/slider.css");
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/gotham-black.otf");
+}
+@font-face {
+  font-family: "Lato - regular";
+  src: url("/fonts/lato-regular.ttf");
+}
+@font-face {
+  font-family: "Lato - bold";
+  src: url("/fonts/lato-bold.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/open-sans-light.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/open-sans-light.ttf");
+}
+@font-face {
+  font-family: "Open Sans - regular";
+  src: url("/fonts/open-sans-regular.ttf");
+}
+@font-face {
+  font-family: "Lato - light";
+  src: url("/fonts/lato-light.ttf");
+}
+
+:root {
+  --main-link-color: #868686;
+}
+
+ul,
+body,
+h2,
+p,
+button,
+form {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-text-color);
+  text-align: center;
+  font-size: 13.5;
+  font-family: "Lato - regular";
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  background-color: #ffbb42;
+  color: white;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.button-start {
+  font-size: 14px;
+  padding: 16.4px 25px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 170px;
+}
+
+.content-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
